@@ -1,4 +1,36 @@
-*{
-    padding: px;
-    margin: 0px;
+.banner{
+    padding: 197px 30px 0px 240px;
+    background-color: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-size: cover;
+}
+.btn{
+    border-radius: 8px;
+    background: #E55473; 
+    border: 0px;
+    padding: 20px 43px;
+    color: aliceblue;
+}
+.banner-content{
+    max-width: 500px;
+}
+.banner-title{
+    color: #272727;
+    font-size: 60px;
+    font-weight: 900px;
+    margin-top: 5px;
+    margin-bottom: 20px; 
+}
+.banner-des{
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;    
+}
+.banner-img{
+    margin-right: 240px;
+    width: 635px;
+    height: 800px; 
 }
