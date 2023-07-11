@@ -34,9 +34,9 @@
     width: 635px;
     height: 800px; 
 }
-main{
-    /* width: 1920px; */
-    /* height: 4867px; */
+.featured-container{
+    width: 1920px;
+    height: 4867px;
 }
 .featured{
     text-align: center;
@@ -95,4 +95,17 @@ main{
     color: #272727;
     font-size: 20px;
     text-decoration-line: underline;
+}
+.service{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    width: 1440px;
+    height: 320px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin-top: 150px;
+    text-align: center;
 }
